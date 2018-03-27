@@ -1,48 +1,48 @@
 var pets = [{
   "type": "Small dog",
   "image": "https://i.pinimg.com/736x/11/d4/8a/11d48a6e03d40d611ad220600dbe7724--small-breed-dogs-pet-dogs.jpg",
-  "description":"",
+  "description":"Dogs referred to as toy or teacup dogs, are dogs found in the Toy Group of breed registries, may be of the very ancient lapdog type, or they may be small versions of hunting dogs or working dogs, bred down in size for a particular kind of work or to create a pet of convenient size. In the past, very small dogs not used for hunting were kept as symbols of affluence, as watchdogs, and for the health function of attracting fleas away from their owners.",
   "scores":[]
 },
 {
   "type": "Large dog",
   "image": "https://i.ytimg.com/vi/X4rWauONg70/maxresdefault.jpg",
-  "description":,
+  "description":"The large breed category includes dog breeds that weigh more than 50 to 60 pounds but less than 90 pounds at full size. Dogs weighing more than 90 pounds are considered giant breed dogs.",
   "scores":[]
 },
 {
   "type": "Cat",
   "image": "",
-  "description":,
+  "description":"The domestic cat (Felis silvestris catus or Felis catus) is a small, typically furry, carnivorous mammal.",
   "scores":[]
 },
 {
   "type": "Reptile",
   "image": "",
-  "description":,
+  "description":"Reptiles include turtles, lizards, and snakes",
   "scores":[]
 },
 {
-  "type": "Rodent"
-  "image": "",
-  "description":,
+  "type": "Rodent",
+  "image":"",
+  "description":"The group of small rodents comprised of hamsters, gerbils, guinea pigs, mice, and rats are commonly found at pet stores and are favorites as family pets. ",
   "scores":[]
 },
 {
   "type": "Fish",
   "image": "",
-  "description":,
+  "description":"",
   "scores":[]
 },
 {
   "type": "You don't need a pet",
   "image": "",
-  "description":,
+  "description":"",
   "scores":[]
 },
 {
   "type": "Any pet you want",
   "image": "",
-  "description":,
+  "description":"",
   "scores":[]
 }]
