@@ -14,6 +14,7 @@ var pets = [{
   "type": "Cat",
   "image": "",
   "description":"The domestic cat (Felis silvestris catus or Felis catus) is a small, typically furry, carnivorous mammal.",
+  "image": "https://cdn.suwalls.com/wallpapers/animals/posing-cats-53888-1920x1200.jpg",
   "scores":[]
 },
 {
@@ -26,11 +27,24 @@ var pets = [{
   "type": "Rodent",
   "image":"",
   "description":"The group of small rodents comprised of hamsters, gerbils, guinea pigs, mice, and rats are commonly found at pet stores and are favorites as family pets. ",
+  "image": "http://media.mlive.com/news/baycity_impact/photo/jvc-cam-july-2011-445jpg-9cb0401259fdae52.jpg",
+  "scores":[]
+},
+{
+  "type": "Rodent",
+  "image": "https://static.rcgroups.net/forums/attachments/5/7/2/3/8/9/a8673905-133-hamster-thumbs-up-cute-hamters-animal-picture-pics.jpg",
   "scores":[]
 },
 {
   "type": "Fish",
   "image": "",
+  "description":"",
+  "image": "https://whenyouriseup.com/wp-content/uploads/2017/02/goldfish.jpg",
+  "scores":[]
+},
+{
+  "type": "Bird",
+  "image": "http://www.zooniversity.org/images/animals/Moluccan-Cockatoo.jpg",
   "description":"",
   "scores":[]
 },
@@ -44,5 +58,6 @@ var pets = [{
   "type": "Any pet you want",
   "image": "",
   "description":"",
+  "image": "https://www.unlitips.com/wp-content/uploads/2016/10/Pets-at-home-where-pets-come-first.jpg",
   "scores":[]
 }]
