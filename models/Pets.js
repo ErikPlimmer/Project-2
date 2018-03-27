@@ -1,7 +1,7 @@
 module.exports = function(sequelize, DataType) {
     const Pets = sequelize.define("Pets", {
         type: DataType.STRING,
-        image: DataType.LONGBLOB,
+        image: DataType.STRING,
         description: DataType.STRING,
         score: DataType.STRING
         
