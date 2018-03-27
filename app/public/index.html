@@ -30,7 +30,7 @@
 
   <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-      <a class="pure-menu-heading" href="">Your Site</a>
+      <a class="pure-menu-heading" href="">Find-a-Pet</a>
 
       <ul class="pure-menu-list">
         <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
@@ -42,12 +42,12 @@
 
   <div class="splash-container">
     <div class="splash">
-      <h1 class="splash-head">Insert perfect slogan here</h1>
+      <h1 class="splash-head">Matching people with their perfect pet everyday</h1>
       <p class="splash-subhead">
         Finding your perfect pet is simple. Take our survey and find your perfect match!
       </p>
       <p>
-        <a href="http://purecss.io" class="pure-button pure-button-primary">Start Survey</a>
+        <a href="findPetSurvey.html" class="pure-button pure-button-primary">Start Survey</a>
       </p>
     </div>
   </div>
@@ -99,7 +99,7 @@
 
     <div class="ribbon l-box-lrg pure-g">
       <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-        <img width="300" alt="File Icons" class="pure-img-responsive" src="images/common/pets1.jpg">
+        <img width="600" height="400" alt="File Icons" class="pure-img-responsive" src="images/common/pets1.jpg">
       </div>
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
@@ -122,10 +122,10 @@
               <label for="name">Your Name</label>
               <input id="name" type="text" placeholder="Your Name">
 
-              <label for="name">Your Pet's Name</label>
-              <input id="name" type="text" placeholder="Your Pet's Name">
+              <label for="pet-name">Your Pet's Name</label>
+              <input id="pet-name" type="text" placeholder="Your Pet's Name">
 
-              <label for="name">Pet Type</label>
+              <label for="pet-type">Pet Type</label>
               <select id="pet-type">
                       <option>Dog</option>
                       <option>Cat</option>
@@ -135,9 +135,12 @@
                       <option>Other</option>
               </select>
 
-              <label for="name">Upload Image</label>
-              <input id="name" type="text" placeholder="Your Pet's Name">
-              <!-- Figure out how to do this -->
+              <!-- <label for="name">Upload Image</label>
+              <input id="name" type="text" placeholder="Your Pet's Name"> -->
+
+              <label for="upload-image">Upload Picture of your Pet</label>
+              <input type="file" id="upload-image" placeholder="Upload Image">
+
               <label for="name">Location</label>
               <input id="name" type="text" placeholder="Location">
 
@@ -168,7 +171,7 @@
     </div>
 
     <div class="footer l-box is-center">
-      View the source of this layout to learn more. Made with love by the YUI Team.
+      Find-a-Pet &copy;
     </div>
 
   </div>
