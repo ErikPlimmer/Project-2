@@ -10,4 +10,12 @@ module.exports = app => {
           .create(req.body)
           .then(dbPets => res.json(dbPets))
     });
+
+    app.post("/api/newUsers", (req, res) => {
+        // Create an Pet with the data available to us in req.body
+        console.log(req.body);
+        models.Users
+          .create(req.body)
+          .then(dbUsers => res.json(dbUsers))
+    });
 };
