@@ -8,9 +8,11 @@ module.exports  = function(app){
     res.sendFile(path.join(__dirname + '/../public/index.html'));
   });
   
-  app.get("/findPetSurvey", function(req, res) {
-    res.sendFile(path.join(__dirname + '/../public/findPetSurvey.html'));
+
+  app.get("/survey", function(req, res) {
+    res.sendFile(path.join(__dirname + '/../public/survey.html'));
   });
+
 
   app.get("/petfinder", function(req, res) {
     res.sendFile(path.join(__dirname + '/../public/petfinder.html'));
