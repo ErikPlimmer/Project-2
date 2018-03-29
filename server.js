@@ -11,8 +11,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-require("./app/routes/api-routes");
-require("./app/routes/html-routes");
+require("./app/routes/api-routes")(app);
+require("./app/routes/html-routes")(app);
 
 
 
