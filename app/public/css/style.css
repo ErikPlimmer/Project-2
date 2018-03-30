@@ -9,3 +9,13 @@
     border-radius: 5px;
     line-height: 1em;
 }
+
+#frm_map {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+}

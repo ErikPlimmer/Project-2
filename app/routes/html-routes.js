@@ -17,4 +17,9 @@ module.exports  = function(app){
   app.get("/petfinder", function(req, res) {
     res.sendFile(path.join(__dirname + '/../public/petfinder.html'));
   });
+
+
+  app.get("/demopet", function(req, res) {
+    res.sendFile(path.join(__dirname + '/../public/demopet.html'));
+  });
 };

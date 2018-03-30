@@ -1,6 +1,7 @@
+
 $("#add").on("click", function(event) {
     event.preventDefault();
-  
+    
     // make a newUser obj
     var Users = {
       // name from input
@@ -8,9 +9,9 @@ $("#add").on("click", function(event) {
       // petName from input
       petName: $("#pet-name").val().trim(),
       // petType from input
-      petType: $("#pet-type").val().trim(),
+      petType: $("#pet-type").val(),
       // photo from input
-      photo: $("#upload-image").val().trim(),
+      photo: $("#upload-image").val(),
       // location from input
       location: $("#location").val().trim(),
       // email from input
