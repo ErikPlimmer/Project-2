@@ -1,72 +1,63 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>My Perfect Pet Survey</title>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Project 2 - Pet Finder Survey">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Perfect Pet Survey</title>
 
 	<!-- add link to the jQuery CDN -->
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
 
 	<!-- Bootstrap section -->
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<!-- Font Awesome Glyphicons -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
-	<!-- Chosen Library for taming selection boxes -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
 
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <!-- Chosen Library for taming selection boxes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
 
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
-	<link rel="stylesheet" href="css/layouts/marketing.css">
-
+  <link rel="stylesheet" href="css/layouts/marketing.css">
 
 </head>
 
 <body>
-	<div class="header">
-		<div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-	  <a class="pure-menu-heading" href="/">My Perfect Pet</a>
+<div class="header">
+  <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+    <a class="pure-menu-heading" href="/">My Perfect Pet</a>
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
+      <li class="pure-menu-item"><a href="/petfinder" class="pure-menu-link">Pet Search</a></li>
+      <li class="pure-menu-item"><a href="/#profile" class="pure-menu-link">Sign Up</a></li>
+    </ul>
+  </div>
+</div>
+<div class="content">
+    <h2 class="content-head is-center">What type of pet should you get?</h2>
+    <div class="pure-g">
+      <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+        <form class="pure-form pure-form-stacked">
+            <fieldset>
 
-			<ul class="pure-menu-list">
-				<li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
-				<li class="pure-menu-item"><a href="/petfinder" class="pure-menu-link">Pet Search</a></li>
-				<li class="pure-menu-item"><a href="/#profile" class="pure-menu-link">Sign Up</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="content">
-		<h2 class="content-head is-center">What type of pet should you get?</h2>
-
-		<div class="pure-g">
-			<div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-				<form class="pure-form pure-form-stacked">
-					<fieldset>
-
-						<label for="name">Your Name</label>
-						<input id="name" type="text" placeholder="Your Name">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" placeholder="Your Name">
 
 
-						<label for="q1">Would you consider yourself a…</label>
-						<select data-placeholder="" class="chosen-select" id="q1">
+            <label for="q1">Would you consider yourself a…</label>
+	 		<select data-placeholder="" class="chosen-select" id="q1">
                     <option value="0">Please select</option>
                     <option value="1">Morning person “The early bird gets the worm”</option>
                     <option value="2">Night owl</option>
@@ -74,8 +65,8 @@
                     <option value="4">Eh, just depends on the day and what I have to do</option>
             </select>
 
-						<label for="q2">Would you rather live...</label>
-						<select data-placeholder="" class="chosen-select" id="q2">
+            <label for="q2">Would you rather live...</label>
+	 		<select data-placeholder="" class="chosen-select" id="q2">
                     <option value="0">Please select</option>
                     <option value="1">On a farm with a lot of land, give me fresh air and a tractor</option>
                     <option value="2">In the heart of a big city, where all of the action happens</option>
@@ -83,15 +74,15 @@
                     <option value="4">Wherever I can afford to live</option>
             </select>
 
-						<label for="q3">Are you an only child?</label>
-						<select data-placeholder="" class="chosen-select" id="q3">
+            <label for="q3">Are you an only child?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q3">
                     <option value="0">Please select</option>
                     <option value="1">Yes</option>
                     <option value="2">No</option>
             </select>
 
-						<label for="q4">How many siblings do you have?</label>
-						<select data-placeholder="" class="chosen-select" id="q4">
+            <label for="q4">How many siblings do you have?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q4">
                     <option value="0">Please select</option>
                     <option value="1">1-2</option>
                     <option value="2">3-4</option>
@@ -99,8 +90,8 @@
                     <option value="4">I told you, I'm an only child</option>
             </select>
 
-						<label for="q5">Are you the oldest, middle or youngest child?</label>
-						<select data-placeholder="" class="chosen-select" id="q5">
+            <label for="q5">Are you the oldest, middle or youngest child?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q5">
                     <option value="0">Please select</option>
                     <option value="1">Oldest</option>
                     <option value="2">Middle</option>
@@ -108,8 +99,8 @@
                     <option value="4">Why do I have to keep telling you that I don’t have any siblings!</option>
             </select>
 
-						<label for="q6">Do you live alone?</label>
-						<select data-placeholder="" class="chosen-select" id="q6">
+            <label for="q6">Do you live alone?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q6">
                     <option value="0">Please select</option>
                     <option value="1" >Yes</option>
                     <option value="2">No, I have a roommate/live with my significant other</option>
@@ -117,8 +108,8 @@
                     <option value="4">Depends on if you count my four legged friend(s)</option>
             </select>
 
-						<label for="q7">How often do you travel?</label>
-						<select data-placeholder="" class="chosen-select" id="q7">
+            <label for="q7">How often do you travel?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q7">
                     <option value="0">Please select</option>
                     <option value="1">As often as I can, I have frequent flyer miles for days!</option>
                     <option value="2">Not as often as I would like</option>
@@ -126,8 +117,8 @@
                     <option value="4">I can’t even remember the last time I went on a vacation</option>
             </select>
 
-						<label for="q8">Are you a workaholic?</label>
-						<select data-placeholder="" class="chosen-select" id="q8">
+            <label for="q8">Are you a workaholic?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q8">
                     <option value="0">Please select</option>
                     <option value="1">I wouldn’t say so, I work a regular 9 to 5</option>
                     <option value="2">I work hard, but I play harder!</option>
@@ -135,8 +126,8 @@
                     <option value="4">Yes, but I am trying to have a better work/life balance</option>
             </select>
 
-						<label for="q9">Which comics are better?</label>
-						<select data-placeholder="" class="chosen-select" id="q9">
+            <label for="q9">Which comics are better?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q9">
                     <option value="0">Please select</option>
                     <option value="1">DC</option>
                     <option value="2">Marvel</option>
@@ -144,51 +135,49 @@
                     <option value="4">Um, I’m too old for comics</option>
             </select>
 
-						<label for="q10"> Are you physically active?</label>
-						<select data-placeholder="" class="chosen-select" id="q10">
+            <label for="q10"> Are you physically active?</label>
+	 	<select data-placeholder="" class="chosen-select" id="q10">
                     <option value="0">Please select</option>
                     <option value="1">I sure am, I could probably be in the olympics</option>
                     <option value="2">Define active… do video games count?</option>
                     <option value="3">Not as much as I’d like to be, but I work out at least 1 -2 times a week</option>
                     <option value="4">LOL I don’t know how I passed gym class</option>
             </select>
-						<br>
-						<br>
-						<!-- Submit Button -->
-						<button type="submit" class="btn btn-primary btn-lg" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
-					</fieldset>
-				</form>
-			</div>
-		</div>
+            <br>
+            <br>
+            <!-- Submit Button -->
+		<button type="submit" class="btn btn-primary btn-lg btn-block specialbutton" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
+          </fieldset>
+        </form>
+      </div>
 	</div>
+</div>
 
 	<!-- Modal -->
 	<div id="resultsModal" class="modal fade" role="dialog">
-		<div class="modal-dialog">
+	  <div class="modal-dialog">
 
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div align="center" id="userDiv">
-					<div align="center" id=welcome></div>
-					<div class="modal-header">
-						<h2 class="modal-title"><strong>Your perfect pet is...</strong></h2>
-					</div>
-				</div>
-				<div class="modal-body">
-					<h2 style="text-align:center;" id="matchName"></h2>
-					<img id="matchImg" class="img-responsive" style="display:block; margin-left:auto; margin-right:auto; width:50%;" src="/images/loading.gif" alt="pet"><br><br>
-					<p id="matchDescription"></p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal">Close</button>
-					<a href="/petfinder" class="btn btn-success btn-lg active" role="button">Pet Search</a>
-				</div>
-			</div>
-		</div>
-		<!-- end the bootstrap container -->
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	    	<div align="center" id="userDiv">
+	    		<div align="center" id=welcome></div>
+	      		<div class="modal-header">
+       				<h2 class="modal-title"><strong>Your perfect pet is...</strong></h2>
+    			</div>
+	     	</div>
+	      <div class="modal-body">
+	        <h2 id="matchName"></h2>
+	        <img id="matchImg" class="img-responsive" src="/images/loading.gif" alt="pet"><br><br>
+	        <p id="matchDescription"></p>
+	      </div>
+	      <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	<!-- end the bootstrap container -->
 	</div>
 	<!-- javascript for this page-->
 	<script src="js/survey.js"></script>
 </body>
-
 </html>
