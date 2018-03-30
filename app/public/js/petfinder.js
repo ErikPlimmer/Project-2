@@ -100,7 +100,7 @@ function findPetByLocation(animalType,zipcode){
       $.each(pets, function(value)
         {
           var petName = pets[[value]].name.$t;
-          var img = pets[[value]].media.photos.photo[0].$t;
+          var img = pets[[value]].media.photos.photo[0].$t;     
           var id = pets[[value]].id.$t;
           
           var li = $('<li/>')
@@ -110,7 +110,7 @@ function findPetByLocation(animalType,zipcode){
            newPet.attr("href",'https://www.petfinder.com/petdetail/' + id)
            newDiv.append(newPet);
             // pulling gif
-            var petImage = $("<img>");
+            var petImage = $("<img height='100px' width='100px'>");
             petImage.attr("src", img); 
             //gifImage.addClass("image");     
         

@@ -4,27 +4,27 @@ module.exports = function(sequelize, DataTypes) {
     const Users = sequelize.define("Users", {
         name: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
           },
         petName: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
           },
         petType: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
           },
         photo: {
             type: DataTypes.BLOB,
-            allowNull: false
+            allowNull: true
           },
         location: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
           },
         email: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
             unique: true,
             validate: {
               isEmail: true
@@ -32,7 +32,7 @@ module.exports = function(sequelize, DataTypes) {
             },
         password: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
           }
         
     });
