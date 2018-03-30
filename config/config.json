@@ -1,11 +1,7 @@
 {
   "development": {
     "username": "root",
-<<<<<<< HEAD
     "password": "ashley",
-=======
-    "password": "Emerson24#$",
->>>>>>> cb2b94cd7910cb07a65ae9de9aa53bd61b4c749c
     "database": "pets",
     "host": "127.0.0.1",
     "dialect": "mysql"
