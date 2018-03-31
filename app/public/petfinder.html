@@ -13,7 +13,7 @@
     <script type="text/javascript" src="../js/petfinder.js"></script>
 
     <!--LInk to external CSS file-->
-   
+
     <!-- <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
@@ -24,8 +24,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <!-- Chosen Library for taming selection boxes -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css"> 
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+
   <link rel="stylesheet" href="css/layouts/marketing.css">
   <link rel="stylesheet" href="css/layouts/style.css"></link>
 </head>
@@ -36,20 +36,24 @@
 
       <ul class="pure-menu-list">
         <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
+          <li class="pure-menu-item "><a href="/survey" class="pure-menu-link">Perfect Pet Survey</a></li>
+        <li class="pure-menu-item"><a href="#profile" class="pure-menu-link">Sign Up</a></li>
+        <li class="pure-menu-item"><a href="/demopet" class="pure-menu-link">Pet Profile</a></li>
       </ul>
     </div>
   </div>
- <div class="container" id="MainContent">      
+ <div class="container" id="MainContent">
       <div class="PageHeader">
-        <h3>Pets Located near you !!</h3>
-        <p id="errorMsg"></p>  
-        <form class="form-inline" name="frm_map" id="frm_map">                      
+        <h3>Pets Located Near You!</h3>
+        <p id="errorMsg"></p>
+        <br>
+        <form class="form-inline" name="frm_map" id="frm_map">
             <table id="petSearch">
-                <tr>                    
+                <tr>
                     <th><h6>Zip Code</h6></th>
                     <td>
-                        <input class="resizeTextBox" type="text" value="0"  name="zipCode" id="zipCode">
-                    </td>                                       
+                        <input class="resizeTextBox" type="text" placeholder="Enter Zip Code"  name="zipCode" id="zipCode">
+                    </td>
                     <th><h6>Animal Types</h6></th>
                     <td>
                       <select class="form-control questions" id="mySelector">
@@ -73,15 +77,16 @@
                     <td>
                         <button type="button" class="btn btn-primary" id="btnReset">Reset</button>
                     </td>
-                </tr>                    
-            </table>    
+                </tr>
+            </table>
         </form>
       </div>
+      <br>
       <div id="divContent">
           <div id="results"><h3 id="words">Fetching your new friends..</h3>
             <img width="500" height="300" alt="File Icons" class="pure-img-responsive" id="fetchingPhoto" src="images/common/dogball.jpg">
         </div>
-      </div>    
+      </div>
   </div>
   <div class="footer l-box is-center">
        &copy; My Perfect Pet
