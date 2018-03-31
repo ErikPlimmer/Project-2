@@ -306,7 +306,7 @@ a.pure-button-primary {
 
 #animalName {
     font-size: larger;
-    color: rgb(45, 120, 206);
+    /* color: rgb(45, 120, 206); */
 }
 #fetchingPhoto {
     margin-left: 30%;
