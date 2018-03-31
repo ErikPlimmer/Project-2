@@ -9,7 +9,15 @@
     border-radius: 5px;
     line-height: 1em;
 }
+.PageHeader{
+    padding-top: 50px;
+    text-align: center;
+}
 #fetchingPhoto {
-    margin-left: 50px;
     border: violet;
+    padding-bottom: 50px;
+}
+
+th , td{
+    padding-right: 10px;
 }
