@@ -1,6 +1,6 @@
 
-// $(".add").on("click", function(event) {
-//     event.preventDefault();
+$("#add").on("click", function(event) {
+    event.preventDefault();
 
     // make a newUser obj
     var Users = {
@@ -40,4 +40,4 @@
     $("#password").val("");
 
 
-//   });
+  });

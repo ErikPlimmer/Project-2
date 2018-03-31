@@ -4,7 +4,6 @@ var Users = require("../../models/Users.js");
 
 const models = require("../../models");
 
-// const models = require("../models");
 
 module.exports = app => {
     

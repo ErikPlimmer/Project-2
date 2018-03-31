@@ -46,7 +46,8 @@ $("#submit").on("click", function(){
 
     	// AJAX post the data to the pets API.
     	$.post(currentURL + "/api/newPet", userData, function(data){
-
+			console.log(data);
+			console.log(data.photo);
     		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
     		$("#matchName").text(data.name);
     		$('#matchImg').attr("src", data.photo);
